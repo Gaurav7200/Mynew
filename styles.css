@@ -1,0 +1,90 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+/* Above line is to import google font style */
+.content{
+width:960px;
+margin:20px auto;
+}
+.main{
+float:left;
+width: 650px;
+margin-top:80px;
+}
+#progressbar{
+margin:0;
+padding:0;
+font-size:13px;
+}
+.active{
+color:rgb(73, 185, 73);
+}
+fieldset{
+display:none;
+width: 350px;
+padding:20px;
+margin-top:50px;
+margin-left: 85px;
+border-radius:5px;
+box-shadow: 3px 3px 25px 1px gray;
+}
+#first{
+display:block;
+width: 350px;
+padding:20px;
+margin-top:50px;
+border-radius:5px;
+margin-left: 85px;
+box-shadow: 3px 3px 25px 1px gray;
+}
+input[type=text],
+input[type=password],
+select{
+width:100%;
+margin:10px 0;
+height:40px;
+padding:5px;
+border: 3px solid rgb(160, 97, 143);
+border-radius: 4px;
+}
+textarea{
+width:100%;
+margin:10px 0;
+height:70px;
+padding:5px;
+border: 3px solid rgb(176, 236, 184);
+border-radius: 4px;
+}
+input[type=submit],
+input[type=button]{
+width: 120px;
+margin:15px 25px;
+padding: 5px;
+height: 40px;
+background-color: rgb(45, 160, 112);
+border: none;
+border-radius: 4px;
+color: white;
+font-family: 'Droid Serif', serif;
+}
+h2,p{
+    color: teal;
+text-align:center;
+font-family: 'Droid Serif', serif;
+}
+h3{
+    color: teal;
+    text-align:center;
+    font-family: 'Droid Serif', serif;
+}
+li{
+margin-right:52px;
+display:inline;
+color:#c1c5cc;
+font-family: 'Droid Serif', serif;
+}
+input.invalid, textarea.invalid{
+    border: 2px solid red;
+}
+
+input.valid, textarea.valid{
+    border: 2px solid green;
+}

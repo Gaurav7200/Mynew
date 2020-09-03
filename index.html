@@ -1,0 +1,110 @@
+<html>
+<head>
+<title>MyMultistep-Site</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<link href="styles.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+<div class="content">
+
+<div class="main">
+<form action="" class="regform" method="get">
+
+<ul id="progressbar">
+<li class="active">Create Account</li>
+<li>Educational Profiles</li>
+<li>Social Profiles</li>
+<li>Personal Details</li>
+</ul>
+
+<fieldset id="first">
+<h2 class="title">Create your account</h2>
+<p class="subtitle">Step 1</p>
+<input class="text_field" id="contact_email" name="email" placeholder="Email" type="text">
+<input class="text_field" name="pass" placeholder="Password" type="password">
+<input class="text_field" name="cpass" placeholder="Confirm Password" type="password">
+<input class="next_btn" name="next" type="button" value="Next">
+</fieldset>
+<fieldset>
+<h2 class="title">Educational Profiles</h2>
+<p class="subtitle">Step 2</p>
+<select class="options">
+<option>--Select Education--</option>
+<option>Post Graduate</option>
+<option>Graduate</option>
+
+</select>
+<input class="text_field" id="contact_name" name="marks" placeholder="Marks Obtained" type="text">
+<input class="text_field" id="contact_name" name="pyear" placeholder="Passing Year" type="text">
+<input class="text_field" id="contact_name" name="univ" placeholder="University" type="text">
+
+<h3>Senior-Secondary</h3>
+<select class="options">
+    <option>--Select Board--</option>
+    <option>CBSE</option>
+    <option>State-Board</option>
+    
+    </select>
+    
+    <input class="text_field" id="contact_name" name="marks" placeholder="Marks Obtained" type="text">
+    <input class="text_field" id="contact_name" name="pyear" placeholder="Passing Year" type="text">
+    <input class="text_field" id="contact_name" name="univ" placeholder="School" type="text">
+    <h3>Secondary</h3>
+    <select class="options">
+
+        <option>--Select Board--</option>
+        <option>CBSE</option>
+        <option>State-Board</option>
+        
+        </select>
+        <input class="text_field" id="contact_name" name="marks" placeholder="Marks Obtained" type="text">
+        <input class="text_field" id="contact_name" name="pyear" placeholder="Passing Year" type="text">
+        <input class="text_field" id="contact_name" name="univ" placeholder="School" type="text">
+<input class="pre_btn" name="previous" type="button" value="Previous">
+<input class="next_btn" name="next" type="button" value="Next">
+</fieldset>
+<fieldset>
+    <h2 class="title">Social-Profiles</h2>
+    <p class="subtitle">Step 3</p>
+    <select class="options">
+    <option>--Select Platform--</option>
+    <option>Skype</option>
+    <option>Twitter</option>
+    <option>Instagram</option>
+    <option>Facebook</option>
+    </select>
+    <input class="text_field" id="contact_name" name="marks" placeholder="Input Id" type="text">
+    <select class="options">
+        <option>--Select Platform--</option>
+        <option>Skype</option>
+        <option>Twitter</option>
+        <option>Instagram</option>
+        <option>Facebook</option>
+        </select>
+        <input class="text_field" id="contact_name" name="marks" placeholder="Input Id" type="text">
+        <input class="pre_btn" name="previous" type="button" value="Previous">
+        <input class="next_btn" name="next" type="button" value="Next">
+    </fieldset>
+<fieldset>
+<h2 class="title">Personal Details</h2>
+<p class="subtitle">Step 4</p>
+<input class="text_field" name="fname" id="contact_name" placeholder="First Name" type="text">
+<input class="text_field" name="lname" id="contact_name" placeholder="Last Name" type="text">
+<input class="text_field" name="cont" placeholder="Contact" maxlength="10" type="text">
+<label>Gender</label>
+<input class="rad" name="gender" type="radio">Male
+<input class="rad" name="gender" type="radio">Female
+<textarea name="address" id="contact_name" placeholder="Address"></textarea>
+<label for="myfile">Select a file:</label>
+<input class="text_field"  placeholder="Select-File" type="file">
+
+<input class="pre_btn" type="button" value="Previous">
+<input class="submit_btn" type="submit" value="Submit">
+</fieldset>
+</form>
+</div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
